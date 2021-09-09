@@ -2,12 +2,33 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+.bg {
+background-color: #E5E5E5;
+}
+
 img {
     max-width: 100%;
 }
 
+.py-50{
+    padding-top: 50px;
+}
+
+.pyb-50{
+    padding-bottom: 50px;
+}
+
+.py-20{
+    padding: 20px 0;
+}
+
+.py-25 {
+    padding: 25px;
+}
+
 .row {
     display: flex;
+    justify-content: center;
 
 }
 
@@ -70,3 +91,58 @@ img {
 .button :hover{
     color: #b68105;
 }
+/* start My service */
+
+.myservice-title{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.myservice-description {
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: #767676;
+}
+
+
+.box{
+    background: #FFFFFF;
+    width: 310px;
+    padding: 28px;
+    margin: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.box-meta {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+}
+/* end My service */
