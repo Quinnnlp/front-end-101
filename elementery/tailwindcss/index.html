@@ -6,8 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-Mulish">
+    <!-- Menu -->
+    <nav role="navigation" class=" container flex justify-between items-center h-20 mt-10 ">
+        <a href="index.html" class="pl-2"><img src="./images/logo.png" alt="logo"></a>
+        <div class="px-4 cursor-pointer md:hidden" id="bars">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </div>
+        <div class="hidden md:block text-quinnio-gray gap-10" id="menu">
+            <a class="text-quinnio-black" href="index.html" class="p-4">Home</a>
+            <a href="#" class="p-4">Find a doctor</a>
+            <a href="#" class="p-4">Apps</a>
+            <a href="#" class="p-4">Testimonials</a>
+            <a href="#" class="p-4">About us</a>
+        </div>
+    </nav>
+    <!-- Hero banner-->
+    <section class="realtive">
+            <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-20">
+                <!-- Content-->
+                <div class="flex flex-1 flex-col items-center lg:items-start ">
+                    <h2 class="text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6 font-bold"> Virtual healthcare
+                    for you</h2>
+                    <p class="text-lg text-center lg:text-left  text-quinnio-gray mb-8 font-light">
+                    Trafalgar provides progressive, and affordable 
+                    healthcare, accessible on mobile and online
+                    for everyone 
+                    </p>
+                    <div class="flex justify-center">
+                        <a class="w-max px-10 py-3 rounded-full cursor-pointer border-2 border-quinnio-blue bg-quinnio-blue text-quinnio-white  hover:bg-quinnio-white hover:text-quinnio-blue" href="#">Consult today</a>
+                    </div>
+                </div>
+                <!-- Image-->
+                <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-20">
+                    <img class="" src="./images/trafalgar-header illustration 1.png" alt="hero pic">
+                </div>
+            </div>
+            
+    </section>
+    <!-- Our services-->
+    <section class="container flex-col items-center py-20 mt-20 ">
+        <div class="container sm:w-3/4 lg:flex-row mx-auto px-2">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl text-center font-bold mb-6">Our services</h2>
+            <hr class="container w-12 h-3 mb-6">
+            <p class="text-center text-quinnio-gray font-light mb-6">
+                We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health
+            </p>
+        </div>
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-screen-lg mt-20">
+            <div class="flex flex-col rounded-lg shadow-lg ">
+                <div class="p-10 flex flex-col items-start">
+                    <img src="./images/icon1.png" alt="search">
+                    <h3 class="mt-3 font-semibold text-xl">Search doctor</h3>
+                    <p class="text-quinnio-gray font-light mt-3 text-sm">Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg shadow-lg ">
+                <div class="p-10 flex flex-col items-start">
+                    <img src="./images/icon6.png" alt="search">
+                    <h3 class="mt-3 font-semibold text-xl">Online pharmacy</h3>
+                    <p class="text-quinnio-gray font-light mt-3 text-sm">Buy  your medicines with our mobile application with a simple delivery system</p>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg shadow-lg ">
+                <div class="p-10 flex flex-col items-start">
+                    <img src="./images/icon5.png" alt="search">
+                    <h3 class="mt-3 font-semibold text-xl">Consultation</h3>
+                    <p class="text-quinnio-gray font-light mt-3 text-sm">Free consultation with our trusted doctors and get the best recomendations</p>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg shadow-lg ">
+                <div class="p-10 flex flex-col items-start">
+                    <img src="./images/icon4.png" alt="search">
+                    <h3 class="mt-3 font-semibold text-xl">Details info</h3>
+                    <p class="text-quinnio-gray font-light mt-3 text-sm">Free consultation with our trusted doctors and get the best recomendations</p>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg shadow-lg ">
+                <div class="p-10 flex flex-col items-start">
+                    <img src="./images/icon2.png" alt="search">
+                    <h3 class="mt-3 font-semibold text-xl">Emergency care</h3>
+                    <p class="text-quinnio-gray font-light mt-3 text-sm">You can get 24/7 urgent care for yourself or your children and your
+                        lovely family</p>
+                </div>
+            </div>
+            <div class="flex flex-col rounded-lg shadow-lg ">
+                <div class="p-10 flex flex-col items-start">
+                    <img class="h-20"src="./images/icon3.png" alt="search">
+                    <h3 class="mt-3 font-semibold text-xl">Tracking</h3>
+                    <p class="text-quinnio-gray font-light mt-3 text-sm">Track and save your medical history and health data</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-20">
+            <a class="px-10 py-3 rounded-full border-2 border-quinnio-blue text-quinnio-blue" href="#">Learn more</a>
+        </div>
+    </section>
     
 </body>
 </html>
